@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "order-pilot",
   "private": true,
   "scripts": {
     "build": "turbo build",
