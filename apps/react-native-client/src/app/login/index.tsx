@@ -6,14 +6,13 @@ import { View, Text, Image } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import { Separator } from '@/components/ui/separator';
 import { SvgUri } from 'react-native-svg';
-import { useForm } from 'react-hook-form';
 
 const Login = () => {
-  const { register } = useForm()
   return (
     <View className='h-screen w-screen relative bg-muted'>
       <Image source={require('@/assets/images/hotel.png')} className='w-full absolute h-1/2 top-0 left-0 right-0 ' />
       <View className="absolute inset-0 bg-black opacity-50" />
+
       <View
         className='h-screen w-screen backdrop-blur-sm'
       >

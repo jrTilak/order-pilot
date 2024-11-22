@@ -5,15 +5,14 @@ import { Link } from 'expo-router';
 import { View, Text, Image } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import { Separator } from '@/components/ui/separator';
-import { useState } from 'react';
 
 const ForgetPassword = () => {
   return (
-    <View className='h-screen w-screen relative bg-muted'>
+    <View className='h-full w-full relative bg-muted'>
       <Image source={require('@/assets/images/hotel.png')} className='w-full absolute h-1/2 top-0 left-0 right-0 ' />
       <View className="absolute inset-0 bg-black opacity-50" />
       <View
-        className='h-screen w-screen backdrop-blur-sm'
+        className='h-screen w-full backdrop-blur-sm'
       >
 
         <View
