@@ -16,8 +16,9 @@ export default function RootLayout() {
         }}
       >
         <Stack.Screen name="index" />
-        <Stack.Screen name="login/index" />
-        <Stack.Screen name="register-now/index" />
+        <Stack.Screen name="(authenticating)/login/index" />
+        <Stack.Screen name="(authenticating)/register-now/index" />
+        <Stack.Screen name="(authenticating)/forget-password/index" />
       </Stack>
       <DevToolsBubble />
     </QueryClientProvider >
